@@ -1,0 +1,186 @@
+/*====Google fonts====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(242, 239, 240);
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.main {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	margin: 20px;
+}
+
+.main .content {
+	margin: 30px;
+}
+
+.main .about-me  {
+	display: flex;
+	flex-direction: row;
+}
+
+.main .about-me .image img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.main .about-me .about-me-details{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.main .about-me .about-me-details .about-head {
+	font-size: 20px;
+	
+}
+
+.main .about-me .about-me-details .about-content {
+	font-size: 18px;
+	margin: 10px;
+}
+.main .about-me .about-me-details .about-content #icon {
+	padding: 5px;
+	color: rgb(172, 245, 153);
+	font-size: 25px;
+}
+
+.heading {
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.main .career-objective .career-content {
+	text-align: justify;
+	margin: 10px;
+	font-size: 18px;
+}
+
+.main .education-details table{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.main .education-details table td{
+	font-size: 18px;
+	padding: 20px;
+	
+}
+
+.main .education-details table, td {
+	border: 2px solid black;
+	 border-collapse: collapse;
+}
+
+.main .academic-projects ul {
+	margin: 20px;
+}
+
+.main .academic-projects ul li {
+	font-size: 18px;
+}
+
+.main .completed-projects ul {
+	margin: 20px;
+}
+
+.main .completed-projects ul li {
+	font-size: 18px;
+}
+
+.main .inplant-training ul {
+	margin: 20px;
+}
+
+.main .inplant-training ul li {
+	font-size: 18px;
+}
+
+.main .skills .skills-sub-head{
+	margin: 10px;
+}
+
+.main .skills .sub-content ul {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.main .skills .sub-content ul li {
+	padding: 20px;
+	list-style: none;
+	font-size: 18px;
+}
+
+.main .ext-act ul {
+	margin-left: 15px;
+}
+
+.main .ext-act ul li {
+	font-size: 18px;
+	padding: 10px;
+}
+
+.main .hobbies ul {
+	margin-left: 15px;
+}
+
+.main .hobbies ul li {
+	font-size: 18px;
+	padding: 10px;
+}
+
+
+.main .language ul {
+	margin-left: 15px;
+}
+
+.main .language ul li {
+	font-size: 18px;
+	padding: 10px;
+}
+
+.main .personal-details P{
+	margin-left: 10px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.main .decl p {
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.main .decl .decla {
+	text-align: right;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
